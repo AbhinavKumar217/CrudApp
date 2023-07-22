@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Abhinav\\Coding\\DotNetCoreAPI\\dot6-react18crud\\ReactAPI.Demo\\ReactAPI.Demo\\ReactAPI.Demo.csproj": {}
+  },
+  "projects": {
+    "C:\\Abhinav\\Coding\\DotNetCoreAPI\\dot6-react18crud\\ReactAPI.Demo\\ReactAPI.Demo\\ReactAPI.Demo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Abhinav\\Coding\\DotNetCoreAPI\\dot6-react18crud\\ReactAPI.Demo\\ReactAPI.Demo\\ReactAPI.Demo.csproj",
+        "projectName": "ReactAPI.Demo",
+        "projectPath": "C:\\Abhinav\\Coding\\DotNetCoreAPI\\dot6-react18crud\\ReactAPI.Demo\\ReactAPI.Demo\\ReactAPI.Demo.csproj",
+        "packagesPath": "C:\\Users\\Abhinav\\.nuget\\packages\\",
+        "outputPath": "C:\\Abhinav\\Coding\\DotNetCoreAPI\\dot6-react18crud\\ReactAPI.Demo\\ReactAPI.Demo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Abhinav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

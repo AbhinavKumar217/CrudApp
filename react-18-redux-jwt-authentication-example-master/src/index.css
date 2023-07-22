@@ -1,0 +1,12 @@
+.app-container {
+    min-height: 350px;
+}
+
+.deletebutton {
+    margin: 18px;
+}
+
+.addbutton {
+    margin: 18px;
+    margin-left: 70px;
+}
